@@ -66,3 +66,67 @@ git checkout one
 git cherry-pick c4 c3 c2
 git checkout two
 git cherry-pick c5 c4' c3' c2'
+
+git clone
+
+git commit
+git checkout o/main
+git commit
+
+git fetch
+
+git pull
+
+git fakeTeamwork main 2
+git commit
+git pull
+
+git commit
+git commit
+git push
+
+git clone
+git fakeTeamwork
+git commit
+git pull --rebase
+git push
+
+git reset o/main
+git checkout -b feature C2
+git push
+
+git fetch
+git rebase c8 side1
+git rebase c2' side2
+git rebase c4' side3
+git rebase c7' main
+git push
+
+git checkout main
+git pull
+git merge c2
+git merge c4
+git merge c7
+git push
+
+git checkout -b side o/main
+git commit
+git pull --rebase
+git push
+
+git push origin main
+git push origin foo
+
+git push origin foo:main
+git push origin main^:foo
+
+git fetch origin c6:main
+git fetch origin c3:foo
+git checkout foo
+git merge main
+
+git fetch origin  :bar
+git push origin  :foo
+
+git pull origin bar:foo
+git pull origin main:side
